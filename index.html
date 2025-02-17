@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="new-book-btn">New Book</button>
+    <Form id="new-book-form" style="display: none;">
+        <div class="formoption">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div class="formoption">
+            <label for="author">Author:</label>
+            <input type="text" name="author" id="author" required>
+        </div>
+        <div class="formoption">
+            <label for="pages">Pages:</label>
+            <input type="text" name="pages" id="pages" required>
+        </div>
+        <div class="formoption">
+        <label for="isRead">Read?:</label>
+        <input type="checkbox" name="isRead" id="isRead"> 
+        </div>
+        <input type="submit" value="submit">
+    </Form>
+
+    <div class="books">
+        <div class="bookCard">
+            <div class="title"></div>
+            <div class="author"></div>
+            <div class="pages"></div>
+            <div class="isRead"></div>
+
+        </div>
+        <div class="bookCard">qweqwe</div>
+        <div class="bookCard">qwqwewq</div>
+        <div class="bookCard">qwqwewq</div>
+        <div class="bookCard">qwqwewq</div>
+        <div class="bookCard">qwqwewq</div>
+    </div>
+
+    <footer>Luke Howard Library</footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
